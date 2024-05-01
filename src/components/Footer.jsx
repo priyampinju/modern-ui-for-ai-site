@@ -5,7 +5,7 @@ const Footer = ({ crosses }) => {
   return (
     <Section crosses className="!px-0 !py-10">
       <div className="flex container justify-center sm:justify-between ">
-        <h2>Developed with ❤ Pinju</h2>
+        <h2>Developed with ❤ by Pinju</h2>
         <p className="caption text-n-4 lg:block">
           ©{new Date().getFullYear()}. All rights reserved
         </p>
