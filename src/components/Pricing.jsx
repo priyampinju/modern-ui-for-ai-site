@@ -4,9 +4,9 @@ import PricingList from "./PricingList";
 import Section from "./Section";
 import { LeftLine, RightLine } from "./design/Pricing";
 
-const Pricing = (crosses) => {
+const Pricing = () => {
   return (
-    <Section crosses>
+    <Section>
       <div className="overflow-hidden">
         <div className="container relative z-2">
           <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
